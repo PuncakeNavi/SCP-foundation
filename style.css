@@ -1,0 +1,115 @@
+.responsive_img{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+   
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, black, rgb(89, 89, 89), black);
+    color: whitesmoke;
+    margin: 0; 
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;   
+}
+
+.titlebar{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, black,brown , black);
+    justify-content: center;
+}
+
+.navbar{
+    border: 2px solid black;    
+    background-image: linear-gradient(to right, black, white, black);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+}
+
+li{
+    list-style: none;
+    display:inline-block;
+}
+
+
+.type{
+    border: transparent;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), brown, brown, rgba(255,0,0,0));
+    text-align: center;
+    justify-content: center;
+}
+
+.desc{
+    padding: 20px;
+    font-size: 13px;
+    border: 2px solid black;
+    margin-bottom: 3%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-image: linear-gradient(to right, black,brown , black);
+}
+
+
+.ref{
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    background-image: linear-gradient(to right, black,brown , black);
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+mark{
+    color: white;
+    background-color: black;
+}
+
+button{
+    width: 30%;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-image: linear-gradient(to right, black, gray, gray, black);
+}
+
+.back{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
